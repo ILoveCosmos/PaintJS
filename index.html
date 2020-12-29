@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <main>
+      <canvas id="idCanvas" class="jsCanvas"></canvas>
+      <input
+        type="range"
+        id="idRange"
+        class="jsRange"
+        min="0"
+        max="10"
+        value="5.0"
+        step="0.1"
+      />
+      <div class="utility">
+        <button class="jsMode">FILL</button>
+        <button class="jsSave">SAVE</button>
+      </div>
+      <div class="colorControls">
+        <div class="colors" style="background-color: black"></div>
+        <div class="colors" style="background-color: white"></div>
+        <div class="colors" style="background-color: red"></div>
+        <div class="colors" style="background-color: peru"></div>
+        <div class="colors" style="background-color: greenyellow"></div>
+        <div class="colors" style="background-color: cyan"></div>
+        <div class="colors" style="background-color: plum"></div>
+        <div class="colors" style="background-color: brown"></div>
+      </div>
+    </main>
+    <script src="js/paint.js"></script>
+  </body>
+</html>
